@@ -1,0 +1,54 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: url(/assets/images/login_bg.jpg) no-repeat center/cover;
+}
+
+.loginBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.title {
+    height: 60px;
+    line-height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+
+.gotoRegister,
+.gotoLogin {
+    padding: 0 30px;
+}
+
+#denglu,
+#zhuce {
+    float: right;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.layui-input {
+    padding-left: 30px;
+}
